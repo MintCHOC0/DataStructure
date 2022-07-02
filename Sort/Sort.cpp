@@ -107,16 +107,9 @@ bool checkEqArrByBrute(int arr1[], int arr2[], int arr_length) {
 int main() {
 	int t1 = time(NULL);
 	// Program Start
-	srand(time(NULL));
-	int temp_arr[6] = { 0, };
-	for (int i = 0; i < 5000000; i++) {
-		set_lot_arr(temp_arr);
-		cocktailSort(temp_arr, 6);
-	}
-	int arr_size = sizeof(temp_arr) / sizeof(int);
-	for (int i = 0; i < arr_size; i++) {
-		cout << *(temp_arr + i) << endl;
-	}
+
+
+
 	// Program End
 	int t2 = time(NULL);
 	cout << "Time : " << t2 - t1 << endl;
