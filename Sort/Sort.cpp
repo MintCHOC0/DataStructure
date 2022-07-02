@@ -89,6 +89,8 @@ void cocktailSort(int arr[], int arr_length) {
 }
 
 bool checkEqualArray(int arr1[], int arr2[], int arr_length) {
+	selectionSort(arr1,arr_length);
+	selectionSort(arr2, arr_length);
 	for (int i = 0; i < arr_length; i++) { if (arr1[i] != arr2[i]) { return false; } }
 	return true;
 }
@@ -103,13 +105,10 @@ bool checkEqArrByBrute(int arr1[], int arr2[], int arr_length) {
 	return true;
 }
 
-
 int main() {
 	int t1 = time(NULL);
 	// Program Start
-
-
-
+	"Hello"
 	// Program End
 	int t2 = time(NULL);
 	cout << "Time : " << t2 - t1 << endl;
