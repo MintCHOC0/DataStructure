@@ -134,5 +134,3 @@ int main() {
 	int t2 = time(NULL);
 	cout << "Time : " << t2 - t1 << endl;
 }
-
-mkdmsadmlm;lmflflkdnlglangl
