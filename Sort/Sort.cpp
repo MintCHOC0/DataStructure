@@ -109,8 +109,6 @@ void improvedBogoSort(int arr[], int arr_length) {
 	}
 }
 
-void bogoSort(int arr[], int arr_length) {}
-
 bool checkEqualArray(int arr1[], int arr2[], int arr_length) {
 	selectionSort(arr1,arr_length);
 	selectionSort(arr2, arr_length);
