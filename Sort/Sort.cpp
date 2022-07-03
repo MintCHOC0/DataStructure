@@ -129,7 +129,7 @@ bool checkEqArrByBrute(int arr1[], int arr2[], int arr_length) {
 int main() {
 	int t1 = time(NULL);
 	// Program Start
-	Hello
+
 	// Program End
 	int t2 = time(NULL);
 	cout << "Time : " << t2 - t1 << endl;
