@@ -9,7 +9,6 @@ private:
 	int* front = queue_arr;
 	int* rear = queue_arr;
 	int size = 0;
-	void move();
 public:
 	void enqueue(int);
 	int dequeue();
